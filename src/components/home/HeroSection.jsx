@@ -17,7 +17,7 @@ export default function HeroSection() {
             playsInline
             className="absolute inset-0 w-full h-full object-cover opacity-80"
           >
-            <source src="/PlayCraft-Ventures/assets/Trimmed.mp4" type="video/mp4" />
+            <source src="/assets/Trimmed.mp4" type="video/mp4" />
           </video>
 
           {/* Dark Overlay */}
