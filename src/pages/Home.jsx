@@ -20,7 +20,7 @@ export default function Home() {
       <HeroSection />
       <VisionSection />
       <StrengthsSection />
-      <InvestedCompanies />
+      {/* <InvestedCompanies /> */}
       <NewsSection />
       <ContactSection />
       <Footer />
