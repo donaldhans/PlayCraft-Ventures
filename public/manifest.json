@@ -8,7 +8,7 @@
   "theme_color": "#7c3aed",
   "icons": [
     {
-      "src": "https://base44.com/logo_v2.svg",
+      "src": "/assets/edited-photo-logo.png",
       "sizes": "any",
       "type": "image/svg+xml"
     }
