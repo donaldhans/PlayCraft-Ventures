@@ -13,7 +13,7 @@ export default function VisionSection() {
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0f] via-[#0d0d14] to-[#0a0a0f]" />
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-violet-500/30 to-transparent" />
-      
+
       <div ref={ref} className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
@@ -26,25 +26,31 @@ export default function VisionSection() {
               <div className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
               <span className="text-xs font-medium text-violet-300 uppercase tracking-wider">Our Vision</span>
             </div>
-            
+
             <h2 className="text-4xl sm:text-5xl font-bold mb-6">
               <span className="text-white">Building the </span>
               <span className="bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
                 Future of Play
               </span>
             </h2>
-            
+
             <p className="text-lg text-gray-400 leading-relaxed mb-8">
-              The gaming industry represents one of the largest entertainment markets in the world, 
-              with billions of players across every continent. We believe great games come from 
-              passionate teams with bold visions.
+              The interactive entertainment industry represents one of the fastest-growing sectors in
+               technology, reaching billions of users across gaming, virtual worlds, and emerging digital platforms.
+                We believe the most transformative experiences are built by ambitious teams pushing the
+                 boundaries of creativity, technology, and interaction.
             </p>
-            
+
             <p className="text-lg text-gray-400 leading-relaxed mb-8">
-              Throughout our careers, we've witnessed the evolution of gaming from niche hobby to 
-              global phenomenon. We've built studios, published hits, and learned invaluable lessons 
-              along the way. Now, we're here to share that knowledge and capital with the next 
-              generation of game creators.
+              Over the years, we’ve witnessed the evolution of gaming from a niche hobby into a global platform
+               for culture, technology, and community. Along the way, we’ve helped build studios, launch products, and
+                work alongside creators shaping the future of interactive media.
+            </p>
+
+            <p className="text-lg text-gray-400 leading-relaxed mb-8">
+              Today, Playcraft Ventures partners with founders building the next generation of interactive
+               experiences — spanning gaming, AI-driven tools, and digital environments. Our mission is to support
+                visionary teams with both capital and industry insight as they create the future of interactive technology.
             </p>
 
             <div className="flex flex-wrap gap-4">
