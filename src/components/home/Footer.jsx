@@ -64,11 +64,11 @@ export default function Footer() {
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Contact</h4>
             <ul className="space-y-3 text-gray-400">
               <li>
-                <a href="mailto:ow@playcraftventures.com" className="hover:text-white transition-colors">
-                  ow@playcraftventures.com
+                <a href="mailto:ocean@playcraftventures.com" className="hover:text-white transition-colors">
+                  ocean@playcraftventures.com
                 </a>
               </li>
-              <li>Hong Kong SAR</li>
+              <li>Los Angeles, CA & Hong Kong SAR</li>
             </ul>
           </div>
         </div>

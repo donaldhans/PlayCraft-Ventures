@@ -64,8 +64,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-1">Email Us</h4>
-                  <a href="mailto:ow@playcraftventures.com" className="text-gray-400 hover:text-violet-400 transition-colors">
-                    ow@playcraftventures.com
+                  <a href="mailto:ocean@playcraftventures.com" className="text-gray-400 hover:text-violet-400 transition-colors">
+                    ocean@playcraftventures.com
                   </a>
                 </div>
               </div>
@@ -76,7 +76,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-1">Headquarters</h4>
-                  <p className="text-gray-400">HQ: Hong Kong SAR</p>
+                  <p className="text-gray-400">HQ: Los Angeles, CA & Hong Kong SAR</p>
                 </div>
               </div>
             </div>
