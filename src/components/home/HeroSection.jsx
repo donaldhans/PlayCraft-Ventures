@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronRight, Gamepad2, Sparkles } from 'lucide-react';
+import { ChevronRight, BadgeDollarSign, Sparkles } from 'lucide-react';
 import Navbar from './Navbar';
 
 export default function HeroSection() {
@@ -47,14 +47,14 @@ export default function HeroSection() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8">
 
               <Sparkles className="w-4 h-4 text-violet-400" />
-              <span className="text-sm text-gray-300">Investing in the Future of Gaming</span>
+              <span className="text-sm text-gray-300">Where AI Meets Interactive Entertainment</span>
             </motion.div>
 
             {/* Main Headline */}
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.1 }} className="text-5xl sm:text-6xl lg:text-8xl font-bold tracking-tight mb-6">Investing Where Play Meets Technology
+              transition={{ duration: 0.7, delay: 0.1 }} className="text-5xl sm:text-6xl lg:text-8xl font-bold tracking-tight mb-6">Crafting the Next Generation of Digital Entertainment
             </motion.h1>
 
             {/* Subtitle */}
@@ -75,7 +75,7 @@ export default function HeroSection() {
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className="group flex items-center gap-2 px-8 py-4 text-base font-semibold text-white bg-gradient-to-r from-violet-600 to-violet-500 hover:from-violet-500 hover:to-violet-400 rounded-xl transition-all duration-300 shadow-xl shadow-violet-500/30">
 
-                <Gamepad2 className="w-5 h-5" />
+                <BadgeDollarSign className="w-5 h-5" />
                 Apply for Funding
                 <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>

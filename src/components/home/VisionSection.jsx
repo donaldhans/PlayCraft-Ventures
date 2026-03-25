@@ -30,7 +30,7 @@ export default function VisionSection() {
             <h2 className="text-4xl sm:text-5xl font-bold mb-6">
               <span className="text-white">Building the </span>
               <span className="bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
-                Future of Play
+                Next Era of AI-Powered Experiences
               </span>
             </h2>
 
@@ -54,7 +54,7 @@ export default function VisionSection() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              {['Game Studios', 'Gaming Tech', 'Gaming Services', 'Game Infrastructure'].map((tag) => (
+              {['Creative Studios','AI-Powered Studios','Player Experience','Entertainment Services'].map((tag) => (
                 <span
                   key={tag}
                   className="px-4 py-2 text-sm text-gray-300 bg-white/5 border border-white/10 rounded-full"
