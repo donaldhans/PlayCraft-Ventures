@@ -15,9 +15,9 @@ export default function HeroSection() {
             loop
             muted
             playsInline
-            className="absolute inset-0 w-full h-full object-cover opacity-80"
+            className="absolute inset-0 w-full h-full object-cover opacity-50"
           >
-            <source src="/Trimmed.mp4" type="video/mp4" />
+            <source src="/Montage.mp4" type="video/mp4" />
           </video>
 
           {/* Dark Overlay */}
