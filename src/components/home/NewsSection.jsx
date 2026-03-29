@@ -4,26 +4,33 @@ import { ArrowRight, Newspaper, Calendar } from 'lucide-react';
 
 const news = [
   {
+    title: 'Asia’s Gaming Evolution: AI, Web3, and the Rise of a New Digital Entertainment Stack',
+    date: 'March 22, 2026',
+    excerpt: 'Asia’s gaming industry is undergoing a structural transformation that extends far beyond traditional entertainment. While global venture capital markets have slowed due to tighter liquidity and a renewed focus on profitability, early-stage gaming ecosystems across Singapore, Hong Kong, and Macau are demonstrating resilience and strategic evolution. What we are witnessing is not simply a recovery cycle—it is the emergence of a new, technology-driven gaming economy shaped by artificial intelligence, decentralized ownership, and cross-border capital flows.',
+    image: 'Post-1.png',
+    url: 'https://www.linkedin.com/pulse/asias-gaming-evolution-ai-web3-rise-new-digital-entertainment-oyjtc/?trackingId=HqKEhZTvQRqyoJgVaWZ3kw%3D%3D'
+  },
+  {
     title: 'Emerging Markets in Gaming: Scale, Monetization Gaps, and Policy-Driven Growth',
-    date: '13 Feb 2026',
+    date: 'February 13, 2026',
     excerpt: 'East Asia continues to function as the structural center of gravity for the global games industry, combining immense scale with persistent systemic risk. China\'s games market has reached approximate revenue equivalence with the United States, with each generating roughly $50 billion annually. The region has also demonstrated its ability to export globally successful intellectual property, as seen in titles such as Black Myth: Wukong. At the same time, China\'s deep expertise in mobile free-to-play design is increasingly being adapted to PC and console ecosystems. However, regulatory discontinuities — including periodic licensing suspensions and abrupt policy shifts — alongside geopolitical tensions, continue to introduce valuation uncertainty.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69725e6cfc28f2e50b9bbda0/6caab05fb_Post-1.png',
-    url: '#'
+    url: 'https://www.linkedin.com/pulse/emerging-markets-gaming-scale-monetization-gaps-policy-driven-ikvnc/?trackingId=sWSEE4ZD18QbW7I%2BgfON4Q%3D%3D'
   },
   {
     title: 'Macau Gaming Sector: Gaming 2026: Where Venture Capital Finds Asymmetric Returns',
-    date: '04 Feb 2026',
+    date: 'February 04, 2026',
     excerpt: 'Analysts from Jefferies are signaling a broadly optimistic outlook for Macau\'s gaming industry in 2026, with key operators expected to capitalize on the sector\'s recovery and evolving dynamics.\n\nAccording to the latest industry overview, established players such as Sands China, Galaxy Entertainment, and MGM China are positioned to stand out this year — driven by solid performance in both premium and mass gaming segments. These operators have demonstrated resilience and adaptability, suggesting a renewed confidence in Macau\'s ability to sustain growth after the challenges of recent years.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69725e6cfc28f2e50b9bbda0/716483b66_Post-2.jpeg',
-    url: '#'
+    url: 'https://www.linkedin.com/company/playcraft-ventures/posts/?feedView=all'
   },
-  {
-    title: 'Gaming 2026: Where Venture Capital Finds Asymmetric Returns',
-    date: '26 Dec 2025',
-    excerpt: 'The gaming industry is entering a capital-efficient upcycle driven not just by content, but by platform leverage, infrastructure scale, and IP monetization depth.\n\nFrom a VC perspective, we see five investable signals shaping 2025–2026:\n\n1. Blockbuster cycles reset risk appetite\nThe confirmed launch of GTA VI (Nov 2026) and a dense AAA pipeline historically catalyze ecosystem-wide spend — benefiting not only publishers, but tools, infrastructure, and services that scale with content demand.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69725e6cfc28f2e50b9bbda0/68636c728_Post-3.jpg',
-    url: '#'
-  }
+  // {
+  //   title: 'Gaming 2026: Where Venture Capital Finds Asymmetric Returns',
+  //   date: 'December 26, 2025',
+  //   excerpt: 'The gaming industry is entering a capital-efficient upcycle driven not just by content, but by platform leverage, infrastructure scale, and IP monetization depth.\n\nFrom a VC perspective, we see five investable signals shaping 2025–2026:\n\n1. Blockbuster cycles reset risk appetite\nThe confirmed launch of GTA VI (Nov 2026) and a dense AAA pipeline historically catalyze ecosystem-wide spend — benefiting not only publishers, but tools, infrastructure, and services that scale with content demand.',
+  //   image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69725e6cfc28f2e50b9bbda0/68636c728_Post-3.jpg',
+  //   url: 'https://www.linkedin.com/company/playcraft-ventures/posts/?feedView=all'
+  // }
 ];
 
 export default function NewsSection() {
